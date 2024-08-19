@@ -1,0 +1,132 @@
+body {
+    background-color: #0f0f0f;
+}
+
+.navbar-collapse {
+    flex-grow: 0;
+    width: 50%;
+}
+
+div ul li.nav-item {
+    font-size: 25px;
+}
+
+.navbar-brand {
+    color: rgb(219, 9, 9);
+    font-size: 35px;
+    font-weight: 900;
+}
+
+.nav-link,
+.nav-link.active {
+    margin: 0 15px;
+    color: white;
+    font-weight: 500;
+}
+
+.nav-link:hover,
+.nav-link.active:hover {
+    color: rgb(219, 9, 9);
+}
+.shop{
+    margin-top: 150px;
+}
+.middle-text {
+    text-align: center;
+}
+
+.middle-text h4 {
+    font-size: 20px;
+    font-weight: 700;
+    margin-bottom: 10px;
+    color: rgb(219, 9, 9);
+}
+
+.middle-text h2 {
+    font-size: 50px;
+    color: white;
+}
+
+.shop-content {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, auto));
+    gap: 2rem;
+    align-items: center;
+    margin-top: 4rem;
+}
+
+.price h6 {
+    color: #fff;
+}
+
+.row {
+    padding: 10px 35px 40px;
+    position: relative;
+    background: rgba(128, 128, 128, 0.192);
+    border-radius: 3rem;
+}
+
+.row img {
+    width: 100%;
+    height: auto;
+    transition: transform .50s ease;
+    cursor: pointer;
+}
+
+.row h3 {
+    color: white;
+    font-size: 18px;
+    margin-bottom: 5px;
+    font-weight: 700;
+}
+
+.row p {
+    color: rgba(224, 220, 220, 0.568);
+    line-height: 30px;
+    margin-bottom: 1.1rem;
+
+}
+
+.in-text {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.in-text .price h6 {
+    font-size: 17px;
+    color: rgb(219, 9, 9);
+    font-weight: 600;
+}
+
+.in-text .s-btnn a {
+    text-decoration: none;
+    display: inline-block;
+    padding: 9px 23px;
+    background: #000;
+    color: rgb(219, 9, 9);
+    font-size: 14px;
+    font-weight: 500;
+    letter-spacing: 1px;
+    border-radius: 3rem;
+    transition: all .50s ease;
+}
+
+.in-text .s-btnn a:hover {
+    background: #000;
+    box-shadow: 2px 3px 25px;
+}
+
+.row-btn {
+    color: rgb(219, 9, 9);
+    text-align: center;
+    margin-top: 6rem;
+}
+
+.row img:hover {
+    transform: scale(1.1);
+}
+.text-burger{
+    background-color: red;
+    display: block;
+}
